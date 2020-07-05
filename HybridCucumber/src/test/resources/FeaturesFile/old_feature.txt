@@ -1,0 +1,12 @@
+					
+Scenario Outline: To validate the Admin Functionality 
+    Then  Click Admin button
+	Then Enter username
+	Then  selected userrolevisibletext
+	Then I enter EmployeeName 
+	Then selected statusvisible text
+	Then click search button
+	Then Close the browser 
+Examples:
+|username|visibletext|EmployeeName|visibe tet|
+|hanu|ESS|HANUPUDI|Enable|
